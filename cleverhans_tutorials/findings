@@ -1,0 +1,99 @@
+What to change in flags:
+
+eps
+
+attack_iteration ??? 100 for CW
+nb_iter ??? 40 for all other iteration methods
+
+
+
+FGSM (with adversarial training):
+
+full precision:
+
+Test accuracy on legitimate test examples: 0.9905
+Crafting 10 * 1 adversarial examples
+This could take some time ...
+Attack: FastGradientMethod
+scaled_grad.get_shape() =
+(?, 28, 28, 1)
+Evaluating untargeted results
+--------------------------------------
+Test accuracy on adversarial examples 0.6000
+Avg. L_2 norm of perturbations 5.6702
+Avg. rate of perturbed features 0.5140
+accuracy (clean):   0.9905
+adv_accuracy:       0.6000
+percent_perturbed:  5.6702
+percent_perturb:    0.5140
+
+basic binary:
+
+
+Test accuracy on legitimate test examples: 0.9682
+Crafting 10 * 1 adversarial examples
+This could take some time ...
+Attack: FastGradientMethod
+scaled_grad.get_shape() =
+(?, 28, 28, 1)
+Evaluating untargeted results
+--------------------------------------
+Test accuracy on adversarial examples 0.7000
+Avg. L_2 norm of perturbations 6.7986
+Avg. rate of perturbed features 0.6943
+accuracy (clean):   0.9682
+adv_accuracy:       0.7000
+percent_perturbed:  6.7986
+percent_perturb:    0.6943
+
+
+scale binary:
+
+Test accuracy on legitimate test examples: 0.9766
+Crafting 10 * 1 adversarial examples
+This could take some time ...
+Attack: FastGradientMethod
+scaled_grad.get_shape() =
+(?, 28, 28, 1)
+Evaluating untargeted results
+--------------------------------------
+Test accuracy on adversarial examples 0.8000
+Avg. L_2 norm of perturbations 6.6391
+Avg. rate of perturbed features 0.6589
+accuracy (clean):   0.9766
+adv_accuracy:       0.8000
+percent_perturbed:  6.6391
+percent_perturb:    0.6589
+
+
+scaled rand binary:
+Test accuracy on legitimate test examples: 0.4496
+Crafting 10 * 1 adversarial examples
+This could take some time ...
+Attack: FastGradientMethod
+scaled_grad.get_shape() =
+(?, 28, 28, 1)
+Evaluating untargeted results
+--------------------------------------
+Test accuracy on adversarial examples 0.2000
+Avg. L_2 norm of perturbations 6.0871
+Avg. rate of perturbed features 0.5739
+accuracy (clean):   0.4496
+adv_accuracy:       0.2000
+percent_perturbed:  6.0871
+percent_perturb:    0.5739
+
+
+
+Full Precision FGSM dropout 0.3 (no adversarial training):
+scaled_grad.get_shape() =
+(?, 28, 28, 1)
+Evaluating untargeted results
+--------------------------------------
+Test accuracy on adversarial examples 0.3000
+Avg. L_2 norm of perturbations 5.7381
+Avg. rate of perturbed features 0.5253
+accuracy (clean):   0.9886
+adv_accuracy:       0.3000
+percent_perturbed:  5.7381
+percent_perturb:    0.5253

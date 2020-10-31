@@ -1,0 +1,184 @@
+FGSM bit 5
+
+accuracy (clean):   97.80%
+accuracy (clean,group): 99.40%
+adv_accuracy:       60.00%
+adv_accuracy(group):63.80%
+cln mu, sigma:      1.98e-03, 2.73e-05
+adv mu, sigma:      1.33e-02, 1.15e-04
+lr score:           78.20%
+percent_perturbed:  4.0919
+percent_perturb:    0.2972
+
+
+
+PGD binary static
+accuracy (clean):   93.00%
+accuracy (clean,group): 97.60%
+adv_accuracy:       11.60%
+adv_accuracy(group):9.00%
+cln mu, sigma:      5.09e-03, 4.12e-05
+adv mu, sigma:      1.06e-02, 4.98e-05
+lr score:           68.30%
+percent_perturbed:  4.1411
+percent_perturb:    0.8374
+
+
+PGD full precision
+accuracy (clean):   98.20%
+accuracy (clean,group): 99.20%
+adv_accuracy:       0.60%
+adv_accuracy(group):0.60%
+cln mu, sigma:      9.63e-04, 1.87e-05
+adv mu, sigma:      6.68e-04, 1.10e-05
+lr score:           51.40%
+percent_perturbed:  4.3549
+percent_perturb:    0.7538
+
+
+PGD binary rand 0.05 dropout
+
+accuracy (clean):   20.80%
+accuracy (clean,group): 31.40%
+adv_accuracy:       9.80%
+adv_accuracy(group):5.20%
+cln mu, sigma:      2.71e-03, 3.42e-06
+adv mu, sigma:      2.49e-03, 1.20e-06
+lr score:           52.40%
+percent_perturbed:  4.8492
+percent_perturb:    0.6842
+
+PGD_binary_dropout_2bit
+accuracy (clean):   98.40%
+accuracy (clean,group): 98.60%
+adv_accuracy:       1.60%
+adv_accuracy(group):1.60%
+cln mu, sigma:      3.20e-04, 2.31e-06
+adv mu, sigma:      1.73e-04, 1.51e-06
+lr score:           52.90%
+percent_perturbed:  4.3034
+percent_perturb:    0.7300
+
+PGD_binary_dropout_3bit
+accuracy (clean):   98.60%
+accuracy (clean,group): 98.80%
+adv_accuracy:       0.80%
+adv_accuracy(group):0.80%
+cln mu, sigma:      3.33e-04, 2.37e-06
+adv mu, sigma:      2.85e-04, 3.50e-06
+lr score:           51.50%
+
+
+JSMA full precision dropout
+accuracy (clean):   99.20%
+accuracy (clean,group): 99.20%
+adv_accuracy:       32.80%
+adv_accuracy(group):35.20%
+cln mu, sigma:      9.45e-04, 1.98e-05
+adv mu, sigma:      3.17e-02, 1.19e-04
+lr score:           93.90%
+percent_perturbed:  5.4477
+percent_perturb:    0.0497
+
+JSMA dropout 2bit
+accuracy (clean):   97.80%
+accuracy (clean,group): 99.20%
+adv_accuracy:       32.80%
+adv_accuracy(group):35.80%
+cln mu, sigma:      2.28e-03, 2.74e-05
+adv mu, sigma:      1.82e-02, 8.50e-05
+lr score:           86.60%
+
+JSMA dropout 3bit
+accuracy (clean):   97.60%
+accuracy (clean,group): 98.80%
+adv_accuracy:       40.40%
+adv_accuracy(group):44.20%
+cln mu, sigma:      2.24e-03, 4.29e-05
+adv mu, sigma:      1.97e-02, 1.24e-04
+lr score:           85.10%
+percent_perturbed:  6.6886
+percent_perturb:    0.0696
+
+JSMA dropout 4bit
+accuracy (clean):   97.00%
+accuracy (clean,group): 99.20%
+adv_accuracy:       23.80%
+adv_accuracy(group):21.40%
+cln mu, sigma:      2.13e-03, 3.87e-05
+adv mu, sigma:      1.97e-02, 1.83e-04
+lr score:           80.70%
+percent_perturbed:  6.8471
+percent_perturb:    0.0718
+
+
+
+JSMA rand dropout 0.5
+accuracy (clean):   8.40%
+accuracy (clean,group): 8.40%
+adv_accuracy:       8.40%
+adv_accuracy(group):8.40%
+cln mu, sigma:      2.72e-15, 0.00e+00
+adv mu, sigma:      2.72e-15, 0.00e+00
+lr score:           50.00%
+percent_perturbed:  1.0000
+percent_perturb:    0.0013
+
+
+JSMA rand no dropout
+accuracy (clean):   85.60%
+accuracy (clean,group): 94.60%
+adv_accuracy:       47.00%
+adv_accuracy(group):68.00%
+cln mu, sigma:      9.77e-03, 4.41e-05
+adv mu, sigma:      1.65e-02, 1.46e-05
+lr score:           76.00%
+percent_perturbed:  6.1020
+percent_perturb:    0.0570
+
+JSMA static
+accuracy (clean):   89.40%
+accuracy (clean,group): 95.80%
+adv_accuracy:       38.20%
+adv_accuracy(group):51.40%
+cln mu, sigma:      8.19e-03, 7.75e-05
+adv mu, sigma:      1.80e-02, 5.06e-05
+lr score:           74.60%
+percent_perturbed:  6.4744
+percent_perturb:    0.0672
+
+
+JSMA rand 005 dropout
+accuracy (clean):   16.60%
+accuracy (clean,group): 10.20%
+adv_accuracy:       12.80%
+adv_accuracy(group):11.40%
+cln mu, sigma:      1.15e-03, 7.88e-07
+adv mu, sigma:      6.51e-04, 3.55e-07
+lr score:           63.30%
+percent_perturbed:  4.2871
+percent_perturb:    0.0324
+
+
+PGD rand no dropout
+accuracy (clean):   63.80%
+accuracy (clean,group): 85.80%
+adv_accuracy:       7.40%
+adv_accuracy(group):6.60%
+cln mu, sigma:      1.13e-02, 2.08e-05
+adv mu, sigma:      1.06e-02, 7.91e-06
+lr score:           54.20%
+percent_perturbed:  4.9403
+percent_perturb:    0.6836
+
+
+PGD binary 4 bit
+accuracy (clean):   98.00%
+accuracy (clean,group): 99.60%
+adv_accuracy:       3.60%
+adv_accuracy(group):3.40%
+cln mu, sigma:      1.70e-03, 2.51e-05
+adv mu, sigma:      4.80e-03, 9.99e-05
+lr score:           55.90%
+percent_perturbed:  4.1608
+percent_perturb:    0.8219
